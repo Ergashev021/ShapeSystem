@@ -1,9 +1,11 @@
 ﻿using ShapeSystem.Models;
-Circle circle = new Circle();
-circle.Draw();
+
+Shape s1 = new Circle();
+Shape s2 = new Rengtangle();
+Shape s3 = new Triangle();
 Console.WriteLine("==================================");
-Triangle triangle = new Triangle();
-triangle.Draw();
+s1.Draw();
 Console.WriteLine("==================================");
-Rengtangle rengtangle = new Rengtangle();
-rengtangle.Draw();
+s2.Draw();
+Console.WriteLine("==================================");
+s3.Draw();
